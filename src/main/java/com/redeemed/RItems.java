@@ -16,7 +16,7 @@ import org.bukkit.persistence.PersistentDataType;
 import java.util.List;
 
 final class RItems {
-    private Items() {}
+    private RItems() {}
 
     static NamespacedKey key() {
         return new NamespacedKey(RedeemedGemPlugin.get(), "rg_item");
